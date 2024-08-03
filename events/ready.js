@@ -40,7 +40,7 @@ module.exports = async (client) => {
   );
 
   
-  client.user.setActivity('Netflix', {
+  client.user.setActivity('/play', {
     type: ActivityType.Watching,
   });
 };
